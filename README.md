@@ -50,6 +50,10 @@ Los PPTC realmente montados en el prototipo son **RXEF040: 0,40 A hold / 0,80 A 
 
 > La serigrafía de la PCB indica `0.5A` porque el diseño inicial estaba previsto para PPTC de 500 mA.
 
+## Diagrama funcional
+
+![Diagrama funcional de alimentación](Documentacion/DIAGRAMA_FUNCIONAL.png)
+
 ## Breakout USB-C probado
 
 Se utilizó la **placa adaptadora USB Type-C Mauser 011-4653**.
