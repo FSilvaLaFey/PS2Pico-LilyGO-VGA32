@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+    </marker>
+    <style>
+      .title { font: 700 42px Arial, Helvetica, sans-serif; fill:#111; }
+      .boxtext { font: 700 28px Arial, Helvetica, sans-serif; fill:#111; text-anchor:middle; }
+      .note { font: 24px Arial, Helvetica, sans-serif; fill:#111; }
+      .footer { font: 21px Arial, Helvetica, sans-serif; fill:#111; }
+      .box { fill:#fff; stroke:#111; stroke-width:3; rx:18; ry:18; }
+      .line { fill:none; stroke:#111; stroke-width:4; marker-end:url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="white"/>
+  <text x="55" y="78" class="title">PS2Pico LilyGO v1.5.5 — diagrama funcional de alimentación</text>
+
+  <rect x="70" y="185" width="250" height="110" class="box"/>
+  <text x="195" y="230" class="boxtext">+5 V PS/2</text>
+  <text x="195" y="268" class="boxtext">VGA32</text>
+
+  <rect x="390" y="185" width="210" height="110" class="box"/>
+  <text x="495" y="230" class="boxtext">F1</text>
+  <text x="495" y="268" class="boxtext">RXEF040</text>
+
+  <rect x="680" y="185" width="210" height="110" class="box"/>
+  <text x="785" y="230" class="boxtext">D3</text>
+  <text x="785" y="268" class="boxtext">1N5817</text>
+
+  <rect x="70" y="545" width="250" height="110" class="box"/>
+  <text x="195" y="590" class="boxtext">USB-C AUX</text>
+  <text x="195" y="628" class="boxtext">Mauser 011-4653</text>
+
+  <rect x="390" y="545" width="210" height="110" class="box"/>
+  <text x="495" y="590" class="boxtext">F2</text>
+  <text x="495" y="628" class="boxtext">RXEF040</text>
+
+  <rect x="680" y="545" width="210" height="110" class="box"/>
+  <text x="785" y="590" class="boxtext">D4</text>
+  <text x="785" y="628" class="boxtext">1N5817</text>
+
+  <rect x="1130" y="340" width="300" height="120" class="box"/>
+  <text x="1280" y="390" class="boxtext">VBUS</text>
+  <text x="1280" y="430" class="boxtext">Raspberry Pi Pico</text>
+
+  <rect x="1130" y="610" width="300" height="110" class="box"/>
+  <text x="1280" y="655" class="boxtext">Micro-USB OTG</text>
+  <text x="1280" y="693" class="boxtext">Teclado USB</text>
+
+  <path d="M320 240 H390" class="line"/>
+  <path d="M600 240 H680" class="line"/>
+  <path d="M890 240 L1130 375" class="line"/>
+
+  <path d="M320 600 H390" class="line"/>
+  <path d="M600 600 H680" class="line"/>
+  <path d="M890 600 L1130 425" class="line"/>
+
+  <path d="M1280 460 V610" class="line"/>
+
+  <text x="70" y="775" class="note">D3 y D4 aíslan las dos fuentes y evitan una alimentación cruzada útil.</text>
+  <text x="70" y="815" class="note">F1/F2 montados: RXEF040 — 0,40 A hold / 0,80 A trip.</text>
+
+  <rect x="1010" y="755" width="520" height="85" class="box"/>
+  <text x="1270" y="808" class="boxtext">C1 = 100 nF   +   C2 = 100 µF</text>
+
+  <text x="55" y="870" class="footer">Carrier PCB v1.5.5 para LilyGO/FabGL VGA32 — firmware ps2pico original de No0ne</text>
+</svg>
