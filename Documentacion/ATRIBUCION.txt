@@ -1,0 +1,11 @@
+PS2Pico LilyGO VGA32 v1.5.5 — atribución
+
+Firmware y circuito base:
+No0ne / ps2pico
+https://github.com/No0ne/ps2pico
+
+El firmware no se redistribuye en este paquete.
+Descárguese desde el proyecto original y respétense allí sus condiciones/licencia.
+
+Esta release contiene únicamente la carrier PCB, documentación de montaje/pruebas y los Gerbers
+de la v1.5.5 utilizados para fabricar el prototipo.
