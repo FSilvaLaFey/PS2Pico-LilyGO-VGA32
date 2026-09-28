@@ -142,6 +142,14 @@ Los Gerbers fueron generados mediante herramientas propias y se realizó una aud
 
 La v1.5.5 incluida aquí fue aceptada por PCBWay, fabricada físicamente, montada y probada.
 
+## Licencia
+
+Este proyecto se publica bajo la **MIT License**.
+
+El circuito y firmware originales de **No0ne / ps2pico** están sujetos a su propia licencia MIT. Este repositorio contiene la adaptación de la carrier PCB para LilyGO/FabGL VGA32 y su documentación.
+
+Consulta el archivo [LICENSE](LICENSE).
+
 ## Créditos
 
 Proyecto, montaje y pruebas:
