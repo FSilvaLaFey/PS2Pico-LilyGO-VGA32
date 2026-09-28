@@ -52,7 +52,7 @@ Los PPTC realmente montados en el prototipo son **RXEF040: 0,40 A hold / 0,80 A 
 
 ## Diagrama funcional
 
-![Diagrama funcional de alimentación](Documentacion/DIAGRAMA_FUNCIONAL.png)
+![Diagrama funcional de alimentación](Documentacion/DIAGRAMA_FUNCIONAL.svg)
 
 ## Breakout USB-C probado
 
@@ -131,7 +131,7 @@ Los Gerbers v1.5.5 usados para fabricar el prototipo están en:
 - `Documentacion/PINOUT_PS2.md`
 - `Documentacion/TESTES_ES.md`
 - `Documentacion/AUDITORIA_Y_NOTAS.md`
-- `Documentacion/DIAGRAMA_FUNCIONAL.png`
+- `Documentacion/DIAGRAMA_FUNCIONAL.svg`
 - `Documentacion/BOM_v1.5.5.csv`
 - `Documentacion/netlist_pads_v1.5.5.csv`
 - `Documentacion/pico_selected_pins.csv`
