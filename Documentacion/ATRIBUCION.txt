@@ -9,3 +9,10 @@ Descárguese desde el proyecto original y respétense allí sus condiciones/lice
 
 Esta release contiene únicamente la carrier PCB, documentación de montaje/pruebas y los Gerbers
 de la v1.5.5 utilizados para fabricar el prototipo.
+
+
+Proyecto, montaje y pruebas:
+Filipe Silva
+
+Diseño y desarrollo realizados con asistencia técnica de:
+ChatGPT (OpenAI)
