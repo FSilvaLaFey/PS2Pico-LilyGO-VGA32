@@ -13,6 +13,14 @@ Probado con:
 - K-1000 Mini Keyboard USB
 - Razer Huntsman V3 X Tenkeyless RGB, con RGB activo y alimentación auxiliar USB-C de 5 V
 
+## Fotos del proyecto
+
+Galería con fotografías reales de la PCB, montaje y pruebas:
+
+https://ibb.co/album/DD4Hzp
+
+Las imágenes de la galería documentan el prototipo real; no son renders.
+
 ## Qué añade esta carrier
 
 - PCB dedicada de 98 x 56 mm, 2 capas
