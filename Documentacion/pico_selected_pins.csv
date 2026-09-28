@@ -1,0 +1,9 @@
+Pin,Signal,Purpose
+18,GND,ground
+19,GP14,CLOCK input
+20,GP15,CLOCK drive/support
+21,GP16,DATA drive/support
+22,GP17,DATA input
+23,GND,ground
+38,GND,ground/support
+40,VBUS,5V/support
