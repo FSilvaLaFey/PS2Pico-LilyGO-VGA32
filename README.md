@@ -132,6 +132,14 @@ La v1.5.5 incluida aquí fue aceptada por PCBWay, fabricada físicamente, montad
 
 ## Créditos
 
+Proyecto, montaje y pruebas:
+
+**Filipe Silva**
+
+Diseño y desarrollo realizados con asistencia técnica de:
+
+**ChatGPT (OpenAI)**
+
 Circuito base y firmware:
 
 **No0ne / ps2pico**  
