@@ -64,6 +64,13 @@ Con Pico retirada:
 - comprobar alimentación después de F2
 - comprobar VBUS en el pin 40 después de D4
 
+Nota para una fuente USB-C ↔ USB-C: la carrier v1.5.5 no incorpora resistencias
+Rd en CC1/CC2 y sólo conecta VBUS y GND del breakout Mauser 011-4653. Si no
+aparecen 5 V en VBUS, usar una fuente que ya entregue 5 V, un breakout con Rd
+integradas o añadir dos resistencias de 5,1 kΩ (CC1 -> GND y CC2 -> GND).
+
+
+
 ### Backfeed hacia PS/2
 
 En circuito abierto puede medirse tensión fantasma en el pad +5 V PS/2 debido a la alta
