@@ -13,6 +13,16 @@
 11. Programar la Pico antes del montaje definitivo.
 12. Conectar teclado mediante adaptador OTG USB-A hembra -> micro-USB B macho.
 
+### Limitación de la entrada USB-C
+
+El montaje v1.5.5 se probó con una fuente que ya entrega 5 V. La carrier sólo
+usa VBUS y GND del breakout Mauser 011-4653; no incorpora resistencias Rd en
+CC1/CC2. Con una fuente USB-C ↔ USB-C pueden ser necesarias dos resistencias
+de 5,1 kΩ: CC1 -> GND y CC2 -> GND, o un breakout que ya las incluya. No asumir
+compatibilidad universal USB-C ↔ USB-C con esta versión tal como está montada.
+
+
+
 ## Orientación de la Pico
 
 La micro-USB de la Pico queda hacia el lado indicado por `PICO USB >` en la serigrafía.
