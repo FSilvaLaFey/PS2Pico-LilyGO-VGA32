@@ -13,7 +13,7 @@
 11. Programar la Pico antes del montaje definitivo.
 12. Conectar teclado mediante adaptador OTG USB-A hembra -> micro-USB B macho.
 
-### Limitación de la entrada USB-C
+### Compatibilidad de la entrada USB-C
 
 El breakout Mauser 011-4653 usado en el montaje incorpora dos resistencias Rd
 de 5,1 kΩ: CC1 -> GND y CC2 -> GND (marcado SMD `512`). La carrier sólo conecta
