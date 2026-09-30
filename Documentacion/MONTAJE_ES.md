@@ -15,11 +15,11 @@
 
 ### Limitación de la entrada USB-C
 
-El montaje v1.5.5 se probó con una fuente que ya entrega 5 V. La carrier sólo
-usa VBUS y GND del breakout Mauser 011-4653; no incorpora resistencias Rd en
-CC1/CC2. Con una fuente USB-C ↔ USB-C pueden ser necesarias dos resistencias
-de 5,1 kΩ: CC1 -> GND y CC2 -> GND, o un breakout que ya las incluya. No asumir
-compatibilidad universal USB-C ↔ USB-C con esta versión tal como está montada.
+El breakout Mauser 011-4653 usado en el montaje incorpora dos resistencias Rd
+de 5,1 kΩ: CC1 -> GND y CC2 -> GND (marcado SMD `512`). La carrier sólo conecta
+VBUS y GND al breakout; no se deben añadir resistencias Rd externas. Con una
+fuente USB-C ↔ USB-C, ésta debe poder proporcionar los 5 V y la corriente
+necesaria para el conjunto.
 
 
 
