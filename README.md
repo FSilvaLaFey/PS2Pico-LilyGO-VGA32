@@ -62,11 +62,12 @@ La carrier sólo conecta:
 - GND
 - VBUS
 
-> **Limitación USB-C:** el prototipo se probó con una fuente que ya entrega 5 V.
-> Esta carrier no incorpora resistencias Rd en CC1/CC2. Con una fuente USB-C ↔
-> USB-C pueden ser necesarias dos resistencias de 5,1 kΩ: una entre CC1 y GND y
-> otra entre CC2 y GND, o un breakout que ya las integre. No se debe asumir
-> compatibilidad universal USB-C ↔ USB-C con la v1.5.5 tal como está montada.
+> **Compatibilidad USB-C:** la carrier sólo conecta VBUS y GND; las resistencias
+> de configuración no están en la carrier. El breakout Mauser 011-4653 usado en
+> el prototipo ya incorpora dos resistencias Rd de 5,1 kΩ: CC1 -> GND y
+> CC2 -> GND (marcado SMD `512`). Por tanto, no se deben añadir resistencias
+> externas. Con una fuente USB-C ↔ USB-C, ésta debe poder proporcionar los 5 V y
+> la corriente necesaria para el conjunto.
 
 ## BOM
 
