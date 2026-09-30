@@ -16,6 +16,10 @@ La carrier sólo necesita dos puntos de alimentación a 2,54 mm:
 - GND
 - VBUS
 
+El breakout Mauser 011-4653 incorpora dos resistencias Rd de 5,1 kΩ, entre
+CC1/GND y CC2/GND (marcado SMD `512`). Esas resistencias pertenecen al breakout,
+no a la carrier; no deben añadirse resistencias Rd externas.
+
 Por ello, la documentación de esta release describe el componente realmente utilizado y no el
 ADA4090.
 
