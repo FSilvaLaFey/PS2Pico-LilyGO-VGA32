@@ -58,6 +58,7 @@
 
   <path d="M1280 460 V610" class="line"/>
 
+  <text x="70" y="735" class="note">El breakout Mauser 011-4653 integra dos Rd de 5,1 kΩ en CC1/CC2 (marcado 512).</text>
   <text x="70" y="775" class="note">D3 y D4 aíslan las dos fuentes y evitan una alimentación cruzada útil.</text>
   <text x="70" y="815" class="note">F1/F2 montados: RXEF040 — 0,40 A hold / 0,80 A trip.</text>
 
